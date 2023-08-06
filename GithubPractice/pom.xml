@@ -19,7 +19,7 @@
 			    <artifactId>spring-webflux</artifactId>
 			        <version>${org.springframework.version}</version>
 			</dependency>
-    <dependencies>
+		</dependencies>
 	   
   
   <build>
