@@ -14,13 +14,14 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	   <dependency>
+		        <groupId>org.springframework</groupId>
+			    <artifactId>spring-webflux</artifactId>
+			        <version>${org.springframework.version}</version>
+			</dependency>
     <dependencies>
-    <dependency>
-	        <groupId>org.springframework</groupId>
-		    <artifactId>spring-webflux</artifactId>
-		        <version>${org.springframework.version}</version>
-		</dependency>
-  <finalName>Hello World </finalName>
+	   
+  
   <build>
     <finalName>GithubPractice</finalName>
   </build>
